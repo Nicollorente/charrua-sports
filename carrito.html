@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charrua Sport</title>
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <header class="header-mobile">
+            <h1 class="titulo-mobile">Charrua Sports</h1>
+            <button class="abrir-menu" id="abrir-menu">
+              <i class="bi bi-list"></i>
+            </button>
+          </header>
+        <aside >
+            <button class="cerrar-menu" id="cerrar-menu">
+                <i class="bi bi-x-circle"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li class="boton-agrandar boton-menu ">
+                        <h2 class="nav-text">
+                                <a href="./index.html" ><i class="bi bi-caret-left-fill"></i> Seguir Comprando</a>
+                        </h2>
+                    </li>
+                    <li class="cart">
+                        <h2 class="carrito">
+                            <a href="/carrito.html"> <i class="bi bi-cart-fill"></i> Carrito</a>
+                        </h2>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="text-footer">© Nikollorente</p>
+            </footer>
+        </aside>
+        <main class="contenedor-carrito-productos">
+            <h2 class="titulo-carrito">Carrito</h2>
+
+            <div id="carrito-vacio" class="carrito-vacio">
+                <p >Tu carrito esta vacio <i class="bi bi-emoji-tear-fill"></i></p>
+            </div>
+
+            <div id="contenedor-productos-carrito" class="carrito-productos ">
+                <div class="carrito-producto">
+                    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-365-dabra-catalog/default/dw28b9b7c5/products/ADIV1929KIT/ADIV1929KIT-1.JPG?sw=400&sh=400"
+                        alt="remera-1" class="img-carrito">
+                    <div>
+                        <small>Titulo</small>
+                        <p>Remera 1</p>
+                    </div>
+                    <div>
+                        <small>Precio</small>
+                        <p class="precio-carrito-img">$50000</p>
+                    </div>
+                    <div>
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+
+                    <div >
+                        <small >Subtotal</small>
+                        <p>$50000</p>
+                    </div>
+
+
+                    <div>
+                        <button class="icon-eliminar"> <i class="bi bi-trash-fill"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="carrito-producto  ">
+                    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-365-dabra-catalog/default/dw38c3dbea/products/UA1376921-638/UA1376921-638-1.JPG?sw=400&sh=400"
+                        alt="remera-2" class="img-carrito">
+                    <div>
+                        <small>Titulo</small>
+                        <p>Remera 2</p>
+                    </div>
+
+                    <div>
+                        <small>Precio</small>
+                        <p class="precio-carrito-img">$50000</p>
+                    </div>
+                    <div>
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+
+                    <div>
+                        <small>Subtotal</small>
+                        <p>$50000</p>
+                    </div>
+
+                    <div>
+                        <button class="icon-eliminar"> <i class="bi bi-trash-fill"></i></button>
+                    </div>
+
+                </div>
+            </div>
+
+                <div id="boton-eliminar-comprar" class="finalizar-compra  ">
+
+                    <div >
+                        <button id="eliminar-productos" class="boton-eliminar-carrito">Eliminar productos <i class="bi bi-trash-fill"></i></button>
+                    </div>
+
+                    <div  id="total"  class="total-carrito" >
+                        
+                            <p> Total:</p>
+                            <p>$</p>
+                        
+                    </div>
+
+                        <div  >
+                            <button  id="compra-total"  class="boton-comprar-carrito">Comprar Ahora <i class="bi bi-bag-heart-fill"></i></button>
+                        </div>
+                </div>
+
+                <div id="compra-exitosa" class="compra-exitosa disabled " >
+                    <p>Muchas gracias por tu compra <i class="bi bi-emoji-grin-fill"></i></p>
+                </div>
+
+         
+
+    </div>
+    <script src="./Js/carrito.js"></script>
+    <script src="./Js/menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charrua Sport</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./Css/main.css" />
+</head>
+
+<body>
+  <div class="contenedor">
+    <header class="header-mobile">
+      <h1 class="titulo-mobile">Charrua Sports</h1>
+      <button class="abrir-menu" id="abrir-menu">
+        <i class="bi bi-list"></i>
+      </button>
+    </header>
+    <aside >
+      <button class="cerrar-menu" id="cerrar-menu">
+        <i class="bi bi-x-circle"></i>
+      </button>
+      <header>
+        <div class="logo">
+          <h1>Charrua Sports </h1>
+          <img src="./img/logo-charrua.png" alt="logo" class="img-logo">
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li class="boton-agrandar boton-menu ">
+
+            <h2 id="inicio" class="boton-categoria ">
+              <i class="bi bi-play-fill"></i> Inicio</a>
+            </h2>
+
+          </li>
+          <li class="boton-agrandar boton-menu ">
+            <h2 id="remeras" class="boton-categoria">
+              <i class="bi bi-play-fill"></i> Remeras</a>
+            </h2>
+          </li>
+          <li class="boton-agrandar boton-menu ">
+            <h2 id="pantalones" class="boton-categoria">
+              <i class="bi bi-play-fill"></i> Pantalones</a>
+            </h2>
+          </li>
+          <li class="boton-agrandar boton-menu ">
+            <h2 id="zapatillas" class="boton-categoria">
+              <i class="bi bi-play-fill"></i> Zapatillas</a>
+            </h2>
+          </li>
+          <li>
+            <h2 class="carrito">
+              <i class="bi bi-cart-fill "></i> <a href="carrito.html"> Carrito</a> <span class="numerito">( 0
+                )</span></a>
+            </h2>
+          </li>
+        </ul>
+      </nav>
+      <footer>
+        <p class="text-footer">© Nikollorente</p>
+      </footer>
+    </aside>
+
+    <main>
+      <h2 id="titulo-principal">Inicio</h2>
+
+      <div id="contenedor-productos" class="products-container">
+
+      </div>
+  </div>
+  </main>
+    <script src="./Js/main.js"></script>
+    <script src="./Js/carrito.js"></script>
+    <script src="./Js/menu.js"></script>
+
+
+</body>
+
+</html>

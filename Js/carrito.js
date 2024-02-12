@@ -5,14 +5,17 @@ const contenedorCarritoVacio= document.querySelector("#carrito-vacio");
 const contenedorProductos = document.querySelector("#contenedor-productos-carrito");
 const eliminarProductos= document.querySelector("#eliminar-productos");
 const finalizarCompra= document.querySelector("#compra-total");
-const compraFinalizada = document.querySelector("#compra-exitosa")
-const contenedorBotones= document.querySelector("#boton-eliminar-comprar")
-const total= document.querySelector("#total")
-let botonEliminar = document.querySelectorAll(".icon-eliminar")
+const compraFinalizada = document.querySelector("#compra-exitosa");
+const contenedorBotones= document.querySelector("#boton-eliminar-comprar");
+const total= document.querySelector("#total");
+let botonEliminar = document.querySelectorAll(".icon-eliminar");
+
+
+
 
 
 function cargarProductosEnCarrito(){
-    if (productosEnCarrito && productosEnCarrito.length >0 ){
+    if (productosEnCarrito && productosEnCarrito.length > 0 ){
         contenedorCarritoVacio.classList.add("disabled")
         contenedorProductos.classList.remove("disabled")
         eliminarProductos.classList.remove("disabled")
